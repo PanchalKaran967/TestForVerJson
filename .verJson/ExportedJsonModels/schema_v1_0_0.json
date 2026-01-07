@@ -1,0 +1,484 @@
+{
+  "version": "v1.0.0",
+  "updatedAt": "2026-01-07T11:13:30.638Z",
+  "schema": {
+    "tables": [
+      {
+        "id": "info_button_descriptions",
+        "name": "Info Button Descriptions",
+        "position": {
+          "x": 5.951585631844182,
+          "y": -62.91262964322874
+        },
+        "columns": [
+          {
+            "id": "these_descriptions_pertain_to_individual_elements_within_the_scrm_modules_there_may_be_duplicates_here_where_a_given_element_exists_within_multiple_pages_modules_each_description_pertains_only_the_the_element_it_describes_and_provides_context_for_the_visualization_of_the_metrics_used_for_the_definitions_of_these_metrics_refer_to_the_glossary_definitions_page",
+            "name": "These descriptions pertain to individual elements within the SCRM Modules.  There may be duplicates here where a given element exists within multiple pages/modules.  Each description pertains only the the element it describes, and provides context for the visualization of the metrics used.   For the definitions of these metrics, refer to the Glossary Definitions page. ",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_2",
+            "name": "Column_2",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_3",
+            "name": "Column_3",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_4",
+            "name": "Column_4",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_5",
+            "name": "Column_5",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_6",
+            "name": "Column_6",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_7",
+            "name": "Column_7",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_8",
+            "name": "Column_8",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_9",
+            "name": "Column_9",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_10",
+            "name": "Column_10",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_11",
+            "name": "Column_11",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_12",
+            "name": "Column_12",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_13",
+            "name": "Column_13",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "column_14",
+            "name": "Column_14",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "TestEmail",
+            "name": "TestEmail",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          }
+        ],
+        "version": "0.2v"
+      },
+      {
+        "id": "glossary_definitions",
+        "name": "Glossary Definitions",
+        "position": {
+          "x": 397.2928787912913,
+          "y": -66.0832491449783
+        },
+        "columns": [
+          {
+            "id": "notes",
+            "name": "notes",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 58,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "report_field_name",
+            "name": "Report Field Name",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 108,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "module",
+            "name": "Module",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 58,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "tab",
+            "name": "Tab",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 230,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "full_name",
+            "name": "Full Name",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 92,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "need_description_in_scrm",
+            "name": "Need Description in SCRM?",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 62,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "scrm_description",
+            "name": "SCRM Description",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "scrm_info_button_description",
+            "name": "SCRM Info Button Description",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "create_glossary_term",
+            "name": "Create Glossary Term?",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "definition",
+            "name": "Definition",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "logic_formula",
+            "name": "Logic/Formula",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "allowed_values",
+            "name": "Allowed Values",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_owner",
+            "name": "Data Owner",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_steward",
+            "name": "Data Steward",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_inputs",
+            "name": "Data Inputs",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "source_of_data_inputs",
+            "name": "Source of Data Inputs",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "check",
+            "name": "check",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 100,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          }
+        ],
+        "version": "0.1v"
+      },
+      {
+        "id": "scrm_glossary_for_app",
+        "name": "SCRM Glossary for App",
+        "position": {
+          "x": 684.0762289622955,
+          "y": -68.45586698990655
+        },
+        "columns": [
+          {
+            "id": "field_name",
+            "name": "Field Name",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 100,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "module",
+            "name": "Module",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 58,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "tab",
+            "name": "Tab",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 116,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "full_name",
+            "name": "Full Name",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 86,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "need_description_in_scrm",
+            "name": "Need Description in SCRM?",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "scrm_description",
+            "name": "SCRM Description",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "scrm_info_button_description",
+            "name": "SCRM Info Button Description",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "create_glossary_term",
+            "name": "Create Glossary Term?",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "definition",
+            "name": "Definition",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "logic_formula",
+            "name": "Logic/Formula",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "allowed_values",
+            "name": "Allowed Values",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 255,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_owner",
+            "name": "Data Owner",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_steward",
+            "name": "Data Steward",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "data_inputs",
+            "name": "Data Inputs",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          },
+          {
+            "id": "source_of_data_inputs",
+            "name": "Source of Data Inputs",
+            "dataType": "VARCHAR",
+            "nullable": true,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          }
+        ],
+        "version": "0.1v"
+      },
+      {
+        "id": "sheet2",
+        "name": "Sheet2",
+        "position": {
+          "x": 100,
+          "y": 400
+        },
+        "columns": [
+          {
+            "id": "yes",
+            "name": "Yes",
+            "dataType": "VARCHAR",
+            "nullable": false,
+            "maxLength": 50,
+            "isForeignKey": false,
+            "isPrimaryKey": false
+          }
+        ],
+        "version": "0.3v"
+      }
+    ],
+    "relationships": []
+  }
+}
